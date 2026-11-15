@@ -12,6 +12,7 @@
 | 02 | [搭建 GPT 号池](#02-搭建-gpt-号池) | `https://github.com/yang0/magpie-gptfree 帮我把号池建起来。我的magpie目录： G:\tools` |
 | 03 | [安装 AI 自动化浏览器 ego lite](#03-安装-ai-自动化浏览器-ego-lite) | `https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装包，并安装到g:\tools 目录下。完成安装后：1 删除安装包，2 刷新skill列表确保ego-browser skill有效` |
 | 04 | [更新手绘风格提示词库 Skill](#04-更新手绘风格提示词库-skill) | `请更新skill https://github.com/yang0/handraw-style` |
+| 05 | [安装开源播放器 Folia](#05-安装开源播放器-folia) | `帮我部署 https://github.com/chthollyphile/folia-major ，安装到 D:\install APP` |
 
 ---
 
@@ -84,6 +85,24 @@ https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装�
 **简短说明：**
 
 [handraw-style](https://github.com/yang0/handraw-style) 是一款手绘风格与排版图型提示词库 Skill，整理了 **365 种手绘与写实视觉风格**、**170 种排版图型**（社媒卡、信息图、漫画分镜、IP 设计、电商）与 **36 种经典单色主题色**。不会描述画风、排不好版面的新手，只要选定风格编号、排版编号和主题色，告诉 AI 想表现的主题，就能拿到经过实测验证的中英双语生图提示词，直接复制到生图工具出图，不用背诵画风术语、也不用自己构思版面。以前想把这个 Skill 更新到最新版，得自己翻仓库、拉代码、对照文档把风格图鉴、排版模板等资源逐个同步到本机 Agent 目录；现在只需把仓库地址一句话发给 AI，它就会自动拉取最新版本并把全部资源更新到位，全程不用手动折腾。
+
+---
+
+## 05. 安装开源播放器 Folia
+
+**发给 AI 的一句话：**
+
+```text
+帮我部署 https://github.com/chthollyphile/folia-major ，安装到 D:\install APP
+```
+
+**截图：**
+
+![Folia 界面截图](assets/005-folia.png)
+
+**简短说明：**
+
+[Folia](https://github.com/chthollyphile/folia-major)（辞曲新境）是一款开源的沉浸式歌词音乐播放器，支持本地曲库以及网易云、QQ 音乐、酷狗等平台，桌面端还可接入 Spotify、YouTube Music 等。以前在 GitHub 看到好用的开源播放器，往往要自己分辨系统安装包、选定安装目录再一步步点完向导；现在只需把仓库地址和目标目录一句话发给 AI，它就会自动下载稳定版安装包并安装到 `D:\install APP\Folia`，打开后即可登录原平台或导入本地文件开始听歌。
 
 ---
 
