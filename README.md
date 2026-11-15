@@ -11,6 +11,7 @@
 | 01 | [安装开源工具 Magpie](#01-安装开源工具-magpie) | `帮我安装https://github.com/yetone/magpie ，安装目录g:\tools` |
 | 02 | [搭建 GPT 号池](#02-搭建-gpt-号池) | `https://github.com/yang0/magpie-gptfree 帮我把号池建起来。我的magpie目录： G:\tools` |
 | 03 | [安装 AI 自动化浏览器 ego lite](#03-安装-ai-自动化浏览器-ego-lite) | `https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装包，并安装到g:\tools 目录下。完成安装后：1 删除安装包，2 刷新skill列表确保ego-browser skill有效` |
+| 04 | [更新手绘风格提示词库 Skill](#04-更新手绘风格提示词库-skill) | `请更新skill https://github.com/yang0/handraw-style` |
 
 ---
 
@@ -65,6 +66,24 @@ https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装�
 **简短说明：**
 
 [ego lite](https://github.com/citrolabs/ego-lite) 是一款专为「人与 AI Agent 并行工作」设计的免费浏览器。它为每个 Agent（如 Claude Code、Codex、Cursor 等）提供独立隔离的 Space 工作区，可一键继承本地浏览器的登录状态与 Cookie，让多个 Agent 在后台高速执行网页自动化任务的同时，完全不抢占你前台正常浏览的标签页和鼠标控制权，安装后还会自动把 `ego-browser` 技能同步给本机各个 Agent。平时在 GitHub 装桌面软件往往要先分清 macOS（Apple Silicon / Intel）还是 Windows 安装包，再手动下载和指定目录安装；现在只要把仓库地址和目标路径一句话发给 AI，它就会自动识别当前系统、下载对应安装包并安装到 `g:\tools` 目录下，装完还会顺手清理安装包并刷新确认 `ego-browser` 技能已生效，全程省心到底。
+
+---
+
+## 04. 更新手绘风格提示词库 Skill
+
+**发给 AI 的一句话：**
+
+```text
+请更新skill https://github.com/yang0/handraw-style
+```
+
+**截图：**
+
+![handraw-style 手绘风格库配图](assets/004-handraw-style.png)
+
+**简短说明：**
+
+[handraw-style](https://github.com/yang0/handraw-style) 是一款手绘风格与排版图型提示词库 Skill，整理了 **365 种手绘与写实视觉风格**、**170 种排版图型**（社媒卡、信息图、漫画分镜、IP 设计、电商）与 **36 种经典单色主题色**。不会描述画风、排不好版面的新手，只要选定风格编号、排版编号和主题色，告诉 AI 想表现的主题，就能拿到经过实测验证的中英双语生图提示词，直接复制到生图工具出图，不用背诵画风术语、也不用自己构思版面。以前想把这个 Skill 更新到最新版，得自己翻仓库、拉代码、对照文档把风格图鉴、排版模板等资源逐个同步到本机 Agent 目录；现在只需把仓库地址一句话发给 AI，它就会自动拉取最新版本并把全部资源更新到位，全程不用手动折腾。
 
 ---
 
