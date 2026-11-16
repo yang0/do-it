@@ -13,6 +13,7 @@
 | 03 | [安装 AI 自动化浏览器 ego lite](#03-安装-ai-自动化浏览器-ego-lite) | `https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装包，并安装到g:\tools 目录下。完成安装后：1 删除安装包，2 刷新skill列表确保ego-browser skill有效` |
 | 04 | [更新手绘风格提示词库 Skill](#04-更新手绘风格提示词库-skill) | `请更新skill https://github.com/yang0/handraw-style` |
 | 05 | [安装开源播放器 Folia](#05-安装开源播放器-folia) | `帮我部署 https://github.com/chthollyphile/folia-major ，安装到 D:\install APP` |
+| 06 | [把爆款视频拆解成可拍摄 Brief](#06-把爆款视频拆解成可拍摄-brief) | `帮我把这条爆款视频 https://www.douyin.com/video/xxxx 拆解成可直接拍摄的复刻 Brief，包含钩子、分镜和口播文案` |
 
 ---
 
@@ -103,6 +104,24 @@ https://github.com/citrolabs/ego-lite.git  帮我下载针对本系统的安装�
 **简短说明：**
 
 [Folia](https://github.com/chthollyphile/folia-major)（辞曲新境）是一款开源的沉浸式歌词音乐播放器，支持本地曲库以及网易云、QQ 音乐、酷狗等平台，桌面端还可接入 Spotify、YouTube Music 等。以前在 GitHub 看到好用的开源播放器，往往要自己分辨系统安装包、选定安装目录再一步步点完向导；现在只需把仓库地址和目标目录一句话发给 AI，它就会自动下载稳定版安装包并安装到 `D:\install APP\Folia`，打开后即可登录原平台或导入本地文件开始听歌。
+
+---
+
+## 06. 把爆款视频拆解成可拍摄 Brief
+
+**发给 AI 的一句话：**
+
+```text
+帮我把这条爆款视频 https://www.douyin.com/video/xxxx 拆解成可直接拍摄的复刻 Brief，包含钩子、分镜和口播文案
+```
+
+**截图：**
+
+![爆款视频拆解 Brief 配图](assets/006-video-brief.png)
+
+**简短说明：**
+
+做短视频最难的从来不是拍摄，而是搞清楚一条爆款到底「爆」在哪里。以前对标一条百万播放的视频，要自己逐帧暂停、抄台词、掐秒表分析节奏，折腾半天也未必总结出可复用的结构；现在只需把视频链接一句话发给 AI，它就会自动完成抽帧、分析开头 3 秒钩子、梳理分镜节奏与文案结构，输出一份包含钩子设计、逐镜头分镜和口播文案的复刻 Brief——拿着这份 Brief 直接开拍，等于把别人的爆款经验变成自己的拍摄脚本，新手也能照着拍出结构完整的视频。
 
 ---
 
